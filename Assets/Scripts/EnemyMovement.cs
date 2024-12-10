@@ -26,36 +26,33 @@ public class EnemyMovement : MonoBehaviour
         // Calculate the distance between the enemy and the player
         distance = Vector2.Distance(transform.position, Player.transform.position);
 
-        if ((distance <= 8f)&&(distance>=3f)) // If the enemy is farther than 2 units from the player
+        if (distance <= 8f && distance >= 3f)
         {
             _animator.SetBool("walking", true);
+
             // Calculate the direction to the player
             Vector2 direction = (Player.transform.position - transform.position).normalized;
 
-
             FlipTowardsPlayer(direction);
 
-
             // Move the enemy towards the player
-            _rigidbody.linearVelocity = direction * speed;
-            
-            
-           
+            _rigidbody.velocity = direction * speed;
         }
-        else if(distance <3f&&distance>=0)
+        else if (distance < 3f && distance >= 0)
         {
             _animator.SetBool("walking", false);
             _animator.SetTrigger("attack");
-            // Stop the enemy's movement
-            _rigidbody.linearVelocity = Vector2.zero;
 
+            // Stop the enemy's movement
+            _rigidbody.velocity = Vector2.zero;
         }
         else
         {
             _animator.SetBool("walking", false);
-            _rigidbody.linearVelocity=Vector2.zero; 
+            _rigidbody.velocity = Vector2.zero;
         }
     }
+
     private void FlipTowardsPlayer(Vector2 direction)
     {
         // Check if the enemy needs to flip based on the x-direction
