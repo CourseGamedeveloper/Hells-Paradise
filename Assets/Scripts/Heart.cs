@@ -5,6 +5,7 @@ public class Heart : MonoBehaviour
     [SerializeField]
     [Tooltip("Speed of rotation in degrees per second.")]
     public float rotationSpeed = 100f;
+    
     [Tooltip("Axis of rotation.")]
     public Vector3 rotationAxis = Vector3.up;
 
@@ -13,6 +14,7 @@ public class Heart : MonoBehaviour
     {
         transform.Rotate(rotationAxis,rotationSpeed*Time.deltaTime);
     }
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player" && enabled)
