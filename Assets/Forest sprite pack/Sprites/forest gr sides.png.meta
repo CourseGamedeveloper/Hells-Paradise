@@ -1,0 +1,4488 @@
+fileFormatVersion: 2
+guid: 76dcb53c0ed026c4285198071b9b8eeb
+AssetOrigin:
+  serializedVersion: 1
+  productId: 216237
+  packageName: 2D Forest sprite pack.
+  packageVersion: 1.0
+  assetPath: Assets/Forest sprite pack/Sprites/forest gr sides.png
+  uploadId: 487926
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 226365927551303755
+    second: forest gr sides_1
+  - first:
+      213: 754596645059331292
+    second: forest gr sides_2
+  - first:
+      213: -9003733832132763845
+    second: forest gr sides_3
+  - first:
+      213: -3353971673229240292
+    second: forest gr sides_5
+  - first:
+      213: -7170742918285860501
+    second: forest gr sides_6
+  - first:
+      213: -4671000020934413352
+    second: forest gr sides_11
+  - first:
+      213: 8487515834723387034
+    second: forest gr sides_14
+  - first:
+      213: 1913110521428425648
+    second: forest gr sides_16
+  - first:
+      213: 6252928819389968839
+    second: forest gr sides_20
+  - first:
+      213: -6928408012993000153
+    second: forest gr sides_24
+  - first:
+      213: -4569259376357858440
+    second: forest gr sides_35
+  - first:
+      213: -3344088964431295679
+    second: forest gr sides_38
+  - first:
+      213: 8879622679884909552
+    second: forest gr sides_45
+  - first:
+      213: 2667294767493419923
+    second: forest gr sides_46
+  - first:
+      213: -2235782250807310466
+    second: forest gr sides_0
+  - first:
+      213: 5070222756407925866
+    second: forest gr sides_4
+  - first:
+      213: -7570885460637256414
+    second: forest gr sides_7
+  - first:
+      213: 4500427456996776979
+    second: forest gr sides_8
+  - first:
+      213: 6156770330583124409
+    second: forest gr sides_9
+  - first:
+      213: -2084948043075760409
+    second: forest gr sides_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 16
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: forest gr sides_1
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 923
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4082fc9c96342300800000000000000
+      internalID: 226365927551303755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_2
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 923
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4867196add87a00800000000000000
+      internalID: 754596645059331292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_3
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 923
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f5f8398cf4c0380800000000000000
+      internalID: -9003733832132763845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_5
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 630
+        width: 690
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18d276888c4471d0800000000000000
+      internalID: -3353971673229240292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_6
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 917
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b616cebde476c7c90800000000000000
+      internalID: -7170742918285860501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_0
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 923
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77c18973e7e8f0e0800000000000000
+      internalID: -2235782250807310466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_4
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 918
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cdbc7dbbc0d5640800000000000000
+      internalID: 5070222756407925866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_7
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 914
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225fb8b29cfcee690800000000000000
+      internalID: -7570885460637256414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 676
+        width: 896
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c15b78deab47e30800000000000000
+      internalID: 4500427456996776979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 862
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b94216eefd317550800000000000000
+      internalID: 6156770330583124409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_10
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 864
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eec2552dc6c013e0800000000000000
+      internalID: -2084948043075760409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_11
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 898
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3bc5e9a364d2fb0800000000000000
+      internalID: -4671000020934413352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_12
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 645
+        width: 701
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438a6bab884b3e64aba4c2f391e01f39
+      internalID: -1423974441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_13
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 904
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37624ca66e975914787a8750477a7ec8
+      internalID: -676506426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_14
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 900
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb1459eee0cb4e47a082e2d9976c437
+      internalID: -1847485451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_15
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 890
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48b3dbfc43524749af2e6b41158baaf
+      internalID: -1310900935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_16
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 898
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1269b39e964176a46b70f8d182fcec94
+      internalID: 685275890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_17
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 652
+        width: 896
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3e83bca2848df43a9b698f03e9ddb2
+      internalID: -69817789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_18
+      rect:
+        serializedVersion: 2
+        x: 3498
+        y: 894
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fd304bae5b7e74fb647510032bd67a
+      internalID: -311902392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_19
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 886
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6ca691898e07e4b81b0e95a3a09817
+      internalID: -1290413772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_20
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 888
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5845ff5de2f8ed04b87689eba0926373
+      internalID: 676165506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_21
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 886
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33290ad41aaa5bc4eb03854b06fbab59
+      internalID: 30264544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 842
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d3451b5e89a9444b2cd28ab5554dbf
+      internalID: 1568565506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_23
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 838
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1f08fbc72281f459cb0cdca9e474e3
+      internalID: 1854403564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_24
+      rect:
+        serializedVersion: 2
+        x: 3484
+        y: 840
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab8c86a55117224392f81812bab3079
+      internalID: 753788605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_25
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 818
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca9e3a9fad8b9540a0e1d57b3a39896
+      internalID: -762277456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_26
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 816
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b5314188672de4c8e948a974143ed9
+      internalID: 866267079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_27
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 818
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a402228c487f7414fa8ce896c20e4aa8
+      internalID: 125031425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_28
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 800
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3268de2b85c3f14889f7cba291f4371
+      internalID: 1257739355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_29
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 794
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6814cba17c17dee4e9d368394d961b57
+      internalID: 485735739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_30
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 792
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5db9c05f7fa7b48a46e45c3b023981
+      internalID: -402279589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_31
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 786
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc23159da6eb3864fbe8184a6a6c202c
+      internalID: 466163486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_32
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 763
+        width: 5
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf18dbd7fb12384ea28b6952be37adf
+      internalID: 2117735025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_33
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 718
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0074ae08b6cf1fd48b79e4fe1b3477fc
+      internalID: -1853533606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_34
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 776
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87cf50d3bf5eb34986f6b5a02e1a380
+      internalID: -1143169468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_35
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 760
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb97d1ff363d9d4885783105452a3f7
+      internalID: -1519884167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_36
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 758
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe920789d36c8194fbc87fd0c1181358
+      internalID: 1645155833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_37
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 736
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f5b349e85a40b46919e058c9b82112
+      internalID: 1950033686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_38
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 762
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11efdc31999e2d459fa2ad69cc53cbe
+      internalID: -1807495056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_39
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 736
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ad3c92684a1cf47b1d452c8a85b873
+      internalID: 720895397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_40
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 730
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0255d2bd49126ff43b7e7c4ef3a813d1
+      internalID: 180771220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_41
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 736
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cf3ef73a459924488bd14097e5c5ee
+      internalID: 36540999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_42
+      rect:
+        serializedVersion: 2
+        x: 3502
+        y: 734
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0d907eac97ad044ad56df30c3831ea
+      internalID: -785944764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_43
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 704
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908fcebab6d8427429c5ab161c23d2f3
+      internalID: -1329881019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_44
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 710
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb0d7c1a4e682b43aa4f1be9ad4c29b
+      internalID: 2079541178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_45
+      rect:
+        serializedVersion: 2
+        x: 2498
+        y: 692
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c0a1950f89b494ab06db856381c268
+      internalID: 1747090496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_46
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 696
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6936a06d7eca099409e5c0b97716c0c0
+      internalID: 1758986054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_47
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 698
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b404a103572dfa45a6c30f57141b18f
+      internalID: -186102456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_48
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 698
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e1937497058814e9c0f2724652667b
+      internalID: 1404676653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_49
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 688
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f59d31e9d6bd61488f5dba935114dd6
+      internalID: 1819856935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_50
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 690
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98206e9f508837a42af4b75382b228e9
+      internalID: 739161282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_51
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 688
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb977295d290f464fb2f01a48ad293fd
+      internalID: -1249655347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_52
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 644
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcc19fe270adda43885cbe8053304b6
+      internalID: -439012533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_53
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 638
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78ae6bd2b02d8e4fa156e0dc7a6696b
+      internalID: -1138198468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_54
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 629
+        width: 39
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81723abb160d2dc4994d9bced2f8c4a4
+      internalID: -529495871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_55
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 632
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789032c40809a10478033e00ace2af4d
+      internalID: -1739580174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_56
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 630
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e91c485a612f840adaba583fad1e12
+      internalID: 1563518616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_57
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 633
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44d2eb9bda1a734486167f0e67d8fff
+      internalID: -861363602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_58
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 634
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d13de7d7c884844a728de0b78d8f5c
+      internalID: -198612818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_59
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 630
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f94781de4c03a5449d5ec5ad13093ae
+      internalID: -1765630121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_60
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 344
+        width: 722
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf2e437096c2bc4083d964b7441220e
+      internalID: 1300864428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_61
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 623
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3713017c67445d438a59caeb9fa8166
+      internalID: 4338650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_62
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 623
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accd83c2f7909a74f9b8421e90fdca2b
+      internalID: -1312327353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_63
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 625
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eea0c63cb4620b4d854e818200507ad
+      internalID: -1046329051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_64
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 622
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6655502f8cba0c3418d378c95d23e33a
+      internalID: -810296522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_65
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 626
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cc8025e7f1b7d43a85dd1cc0f18146
+      internalID: 1650439125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_66
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 600
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b8ce85cb2131f429739a1136f6f3c9
+      internalID: 803072061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_67
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 618
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a76729f09595504e8794cf58e71e22c
+      internalID: 985304974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_68
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 608
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f1468bc93cb214785e45b038148398
+      internalID: -1707429303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_69
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 608
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fdb1ee014498049a31ca3d7abdfa92
+      internalID: -1169558495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_70
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 352
+        width: 662
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ea9c4430eef754bb86e8c3fc6e033a
+      internalID: -541563403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_71
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 613
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa59e2a2d150a846ab783bdda32fda2
+      internalID: -1377466646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_72
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 613
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481c94a6b90413842b3c000a31e20387
+      internalID: 1872665998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_73
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 604
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fe2115105fa5746bcead95f11a68b4
+      internalID: 324443514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_74
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 596
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131720f842472e441b1f525f514611f8
+      internalID: 1128840625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_75
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 596
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832ebf929636f7947b299ee1ff67ec1a
+      internalID: 1188023997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_76
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 583
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad93bb6a33a49a7428321f28a5238f78
+      internalID: 2144092217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_77
+      rect:
+        serializedVersion: 2
+        x: 3495
+        y: 594
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6b3b9adf1044741be10dff9d75c8f3
+      internalID: -212448935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_78
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 504
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968f3f87f14639b4f8662e9851c41692
+      internalID: 678743804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_79
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 358
+        width: 902
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708d57d7c0e630e42921c08f94f0b415
+      internalID: -390648212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_80
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 546
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69927267f7e5e864b888d28952f07e4e
+      internalID: 1570980363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_81
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 555
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214c1d21b16ed844b9a4bf86a605be7d
+      internalID: -653727100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_82
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 480
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82458a5695e0e7e4f889f51edd9ad09a
+      internalID: 2121662775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_83
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 334
+        width: 902
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4484b38a1eb545f46bb7eeef3f230849
+      internalID: 129146376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_84
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 522
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1b8521abf31994ea5fbcdcbb0592e6
+      internalID: 994598486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_85
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 530
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bc3861423a562489150ca4ece2fab1
+      internalID: 277635499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_86
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 529
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449100c34e1562642925f35b27a1c5b9
+      internalID: 2106373800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_87
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 444
+        width: 27
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491a9e1e6782d8e41b872ad5ff3489e4
+      internalID: -1551949376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_88
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 445
+        width: 50
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83cc54fbdfbae948bd2c268cd16a524
+      internalID: 824023644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_89
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 506
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7325062f017f0d943a6a713e66aa666a
+      internalID: -97259286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_90
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 482
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1ab24584d776b4884668973d358297
+      internalID: 1223038516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_91
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 492
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c5c10dc201d2b4fa84c8603d2714ce
+      internalID: -1348280825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_92
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 498
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dc595e392cbc54292e106265f7aab2
+      internalID: 412621609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_93
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 476
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2504bd7dab8c16a4fb8c0d40307dc175
+      internalID: -196052064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_94
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 468
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8389026fb89cef244b3582770329c7e6
+      internalID: 128335511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_95
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 474
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187176cef907fab4f9268b7df3903f0c
+      internalID: 929424334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_96
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 450
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff6929305be2404fa55f988f16dcc2a
+      internalID: 758233047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_97
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 466
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0010251ab2ae04e8fa21dacc41e4f3
+      internalID: 1925616508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_98
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 448
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3851868b65cc2045939c2692e93bb9b
+      internalID: -1962504385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_99
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 458
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd05db1365cf7a40944d04745721acc
+      internalID: 826310465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_100
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 452
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca150e7bca9212846b279631106600d7
+      internalID: 1162595375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_101
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 440
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c71461ff784b74b91a913018d520f9
+      internalID: 1093724997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_102
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 438
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d58f63ccd15754cb5685056c3ad146
+      internalID: 1593579464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_103
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 432
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45dadde97e8dbe4590c9e77fee5a16a
+      internalID: -1483421714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_104
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 426
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f8325ecfa289b40adc6feb41c9879e
+      internalID: 375214195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_105
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 442
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9ed2dd228cfcb409dd63c45fadc820
+      internalID: -1453434488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_106
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 414
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec548682c4aeca843b939e0418b801c0
+      internalID: 136033612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_107
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 414
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8caac82e783004b47b6363f96db80925
+      internalID: 1344506642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_108
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 420
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c7e531db315eb4598367f6db0abcce
+      internalID: -1584071124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_109
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 422
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c87fc291c5c004a83edf82116defcb
+      internalID: -1921887968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_110
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 416
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb37820842d6094ea6e298d437cc97c
+      internalID: 2028878713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_111
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 414
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cc19a9224a8a24d80062254d79d971
+      internalID: -2056931648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_112
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 416
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f49bbefa93efa42813dad8b0144a00
+      internalID: -1658854603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_113
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 406
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb5e9b5a38446e49b1d79518c55ec88
+      internalID: -423388564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_114
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 408
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9a82b0c3870224595473231d975a54
+      internalID: 919686668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_115
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 408
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410b16e4f7816c847bf4630a862a4318
+      internalID: 432560128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_116
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 406
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8574e586fbce8cb43853b785d992479b
+      internalID: -794716507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_117
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 412
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccd4667ce7533846baa837263b1fb42
+      internalID: 1048355211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_118
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 398
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70830740c743a7444bc78a834a892b5d
+      internalID: 600899111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_119
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 376
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393850c98b7c8e449b108f39cbe0649c
+      internalID: 173366606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_120
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 376
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1114fb99b55fc347a794eccf89a0b2c
+      internalID: 710162356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_121
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 370
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7561eb612eba4c7458e79faeda349177
+      internalID: 1561542685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_122
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 370
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328714f59b381644a8070ef0edac019b
+      internalID: -2093216862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_123
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 352
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411640096785e6b46882ad0e7381d1b0
+      internalID: -1380501013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_124
+      rect:
+        serializedVersion: 2
+        x: 3474
+        y: 352
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32450da2213388d4ea03564cb2ed25de
+      internalID: -1080855848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_125
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 340
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f118f7c20b9fabe478c2c210d8b2a7cf
+      internalID: 1783145677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_126
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 341
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810205357104eef40bf155b27082dca8
+      internalID: -1406126416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_127
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 327
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6fc1b34848a504585d5670f09e6daa
+      internalID: -1191046760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_128
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 326
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e3c3ee05ad9b44ab8118a279fcb0ac
+      internalID: 657077684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_129
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 313
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fd1e57fd765fa4daa2e8ae209dc224
+      internalID: -844851565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_130
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 319
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c948e01c30a87114db4e3472e22449e4
+      internalID: 2100292008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_131
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 270
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e1f0c86d526f54facd7ebed26a0395
+      internalID: 1783929274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_132
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 280
+        width: 40
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73e1d7df7354bd43a306442c48cde6e
+      internalID: -170381726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_133
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 252
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5f6559b6eab3d4d9403dd7f08b0356
+      internalID: -1796486188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_134
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 277
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2bf6856a32f8c4086f0b5d202d05bd
+      internalID: -1756996406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_135
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 282
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c9a1645752dc34489972b2eb1804c0
+      internalID: 1821986443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_136
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 0
+        width: 662
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31812190d3809b843b0dccce9cbfc6aa
+      internalID: 1890948596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_137
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 276
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3c63e82f666ec4da8beb0be1d9b3ae
+      internalID: 1757689796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_138
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 53
+        width: 444
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b01376a106aa14caafb82d9adf533f
+      internalID: -539419880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_139
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 276
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8a325cae875674b801e2aff6f8af5d
+      internalID: 1125120919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_140
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 266
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a875dc9a00f9c04498d64edbaef9c68
+      internalID: 202975295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_141
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 42
+        width: 588
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020987a98f078304db5fae4a81824864
+      internalID: -1853027943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_142
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 270
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9dd938d7dbf7146a57f59c143eeb48
+      internalID: -793217329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_143
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 230
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142617072e498e44ea466e4e2a980ce7
+      internalID: 450168011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_144
+      rect:
+        serializedVersion: 2
+        x: 2535
+        y: 264
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6609fcb3149366143a19ed90c0c719c7
+      internalID: -2089949044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_145
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 184
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ed4373216b6224099cb942012b684e
+      internalID: 251153248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_146
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 16
+        width: 896
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd0e998dba78224badddf01781051eb
+      internalID: 484601840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_147
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 258
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d77cfeb95ed3f4691fbcbbbba17d3b
+      internalID: 275947431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_148
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 210
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f03b55a23c8e5943aa075ac29aa8e58
+      internalID: -502970766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_149
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 202
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0af8c5a8c749c40bd5a3a91e486afa
+      internalID: 1022476390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_150
+      rect:
+        serializedVersion: 2
+        x: 3486
+        y: 204
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1548f9239e52c3b47af80e0c4eaff2a7
+      internalID: 1764345091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_151
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 172
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a72b14dae14906458090a9738e97087
+      internalID: -212891886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_152
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 182
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79ae0703d5575d428ed372e4f87de95
+      internalID: 317250217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_153
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 173
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95968d19bafd01546a8d6b0cd1ed8d71
+      internalID: 1933353133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_154
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 178
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e06262213ea6a46a4f809a67333f42
+      internalID: 271477573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_155
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 182
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba9106b1ff56b44c80941cc7f58e436
+      internalID: -667756157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_156
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 162
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7703a22523434b84394cd16d19fedb50
+      internalID: -578272401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_157
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 156
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28b25bd7ebe4554b957e03dbb654695
+      internalID: -1683093271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_158
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 151
+        width: 5
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256d8ca90aded4942adfe73ede9afa6a
+      internalID: -1737761075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_159
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 158
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac026ea90543944297a4bc439a32c13
+      internalID: -1406218358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_160
+      rect:
+        serializedVersion: 2
+        x: 3506
+        y: 156
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290aacd4a52811a45bae91ee8e6d3a46
+      internalID: -380893335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_161
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 130
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77dbbad166d1a3e4eb93273d21640629
+      internalID: 71620953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_162
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 146
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd38fcb00be311a488cdabfda785f51a
+      internalID: -1818999239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_163
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 140
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fe0cd0667b89a44b3d7b7fdbf69a3d
+      internalID: 499184225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_164
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 120
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af90a7f82db0c074cb45d05889b6abd5
+      internalID: -1661162956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_165
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 124
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f9ad6b759847944851fb32d8083f62
+      internalID: -1148973925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_166
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 90
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf35d467a28ff646891fb4c2c896841
+      internalID: -119540789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_167
+      rect:
+        serializedVersion: 2
+        x: 2517
+        y: 106
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b34eed77b0154646a4894c9d6dff842
+      internalID: 936764195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_168
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 126
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb14c6afb01d0d4899f779860159317
+      internalID: -106332967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_169
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 92
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ca42f72c2936841be4b1cdd9d828a1
+      internalID: 1639929102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_170
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 92
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc5bc71c5ff41a45848ee6b7864eb07
+      internalID: -1490254162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_171
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 86
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d0003404fb4284a9eb96d102c1ce64
+      internalID: 1011748793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_172
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 96
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18772c222c552ed4cba1357f2e7a85e4
+      internalID: -1011573039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_173
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 100
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c734e6b392e5b40981a8867fd6e435
+      internalID: 1297501600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_174
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 98
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4f9416b34ee924d9f2c40919da6f70
+      internalID: 1395602920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_175
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c54169298f981e4f8dfa75e2a4042a6
+      internalID: 631101443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_176
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 82
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5516b2b0c568d8542bcfa85c44909f03
+      internalID: 1760687259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_177
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 80
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722afede88350224eb717688f84b2c36
+      internalID: 626633818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_178
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 76
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ce1b0aadde27b4fa8059c6c5866a6c
+      internalID: 1862903868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_179
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 74
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd2999e142c57c41843583237df0aa5
+      internalID: 641652435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_180
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 72
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d378fdde6c1c3ea48af55b1aee00c671
+      internalID: 1194846673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_181
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 66
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad4c4cb42c904d49928fb9e552a9de3
+      internalID: 682719168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_182
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 56
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c28a67e03fcf9643b94e8a8340bd33b
+      internalID: -1928748456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_183
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 58
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435e48781d9d373429959e5ce577dfa5
+      internalID: -1456405671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_184
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 40
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4a857424ec2844a878d63915b83288
+      internalID: 637366904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forest gr sides_185
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 22
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af1949775ad3ad42a076b31bd74a6d2
+      internalID: -1400775101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b293e3e5c9475054aa4bd98e3605813d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      forest gr sides_0: -2235782250807310466
+      forest gr sides_1: 226365927551303755
+      forest gr sides_10: -2084948043075760409
+      forest gr sides_100: 1162595375
+      forest gr sides_101: 1093724997
+      forest gr sides_102: 1593579464
+      forest gr sides_103: -1483421714
+      forest gr sides_104: 375214195
+      forest gr sides_105: -1453434488
+      forest gr sides_106: 136033612
+      forest gr sides_107: 1344506642
+      forest gr sides_108: -1584071124
+      forest gr sides_109: -1921887968
+      forest gr sides_11: -4671000020934413352
+      forest gr sides_110: 2028878713
+      forest gr sides_111: -2056931648
+      forest gr sides_112: -1658854603
+      forest gr sides_113: -423388564
+      forest gr sides_114: 919686668
+      forest gr sides_115: 432560128
+      forest gr sides_116: -794716507
+      forest gr sides_117: 1048355211
+      forest gr sides_118: 600899111
+      forest gr sides_119: 173366606
+      forest gr sides_12: -1423974441
+      forest gr sides_120: 710162356
+      forest gr sides_121: 1561542685
+      forest gr sides_122: -2093216862
+      forest gr sides_123: -1380501013
+      forest gr sides_124: -1080855848
+      forest gr sides_125: 1783145677
+      forest gr sides_126: -1406126416
+      forest gr sides_127: -1191046760
+      forest gr sides_128: 657077684
+      forest gr sides_129: -844851565
+      forest gr sides_13: -676506426
+      forest gr sides_130: 2100292008
+      forest gr sides_131: 1783929274
+      forest gr sides_132: -170381726
+      forest gr sides_133: -1796486188
+      forest gr sides_134: -1756996406
+      forest gr sides_135: 1821986443
+      forest gr sides_136: 1890948596
+      forest gr sides_137: 1757689796
+      forest gr sides_138: -539419880
+      forest gr sides_139: 1125120919
+      forest gr sides_14: -1847485451
+      forest gr sides_140: 202975295
+      forest gr sides_141: -1853027943
+      forest gr sides_142: -793217329
+      forest gr sides_143: 450168011
+      forest gr sides_144: -2089949044
+      forest gr sides_145: 251153248
+      forest gr sides_146: 484601840
+      forest gr sides_147: 275947431
+      forest gr sides_148: -502970766
+      forest gr sides_149: 1022476390
+      forest gr sides_15: -1310900935
+      forest gr sides_150: 1764345091
+      forest gr sides_151: -212891886
+      forest gr sides_152: 317250217
+      forest gr sides_153: 1933353133
+      forest gr sides_154: 271477573
+      forest gr sides_155: -667756157
+      forest gr sides_156: -578272401
+      forest gr sides_157: -1683093271
+      forest gr sides_158: -1737761075
+      forest gr sides_159: -1406218358
+      forest gr sides_16: 685275890
+      forest gr sides_160: -380893335
+      forest gr sides_161: 71620953
+      forest gr sides_162: -1818999239
+      forest gr sides_163: 499184225
+      forest gr sides_164: -1661162956
+      forest gr sides_165: -1148973925
+      forest gr sides_166: -119540789
+      forest gr sides_167: 936764195
+      forest gr sides_168: -106332967
+      forest gr sides_169: 1639929102
+      forest gr sides_17: -69817789
+      forest gr sides_170: -1490254162
+      forest gr sides_171: 1011748793
+      forest gr sides_172: -1011573039
+      forest gr sides_173: 1297501600
+      forest gr sides_174: 1395602920
+      forest gr sides_175: 631101443
+      forest gr sides_176: 1760687259
+      forest gr sides_177: 626633818
+      forest gr sides_178: 1862903868
+      forest gr sides_179: 641652435
+      forest gr sides_18: -311902392
+      forest gr sides_180: 1194846673
+      forest gr sides_181: 682719168
+      forest gr sides_182: -1928748456
+      forest gr sides_183: -1456405671
+      forest gr sides_184: 637366904
+      forest gr sides_185: -1400775101
+      forest gr sides_19: -1290413772
+      forest gr sides_2: 754596645059331292
+      forest gr sides_20: 676165506
+      forest gr sides_21: 30264544
+      forest gr sides_22: 1568565506
+      forest gr sides_23: 1854403564
+      forest gr sides_24: 753788605
+      forest gr sides_25: -762277456
+      forest gr sides_26: 866267079
+      forest gr sides_27: 125031425
+      forest gr sides_28: 1257739355
+      forest gr sides_29: 485735739
+      forest gr sides_3: -9003733832132763845
+      forest gr sides_30: -402279589
+      forest gr sides_31: 466163486
+      forest gr sides_32: 2117735025
+      forest gr sides_33: -1853533606
+      forest gr sides_34: -1143169468
+      forest gr sides_35: -1519884167
+      forest gr sides_36: 1645155833
+      forest gr sides_37: 1950033686
+      forest gr sides_38: -1807495056
+      forest gr sides_39: 720895397
+      forest gr sides_4: 5070222756407925866
+      forest gr sides_40: 180771220
+      forest gr sides_41: 36540999
+      forest gr sides_42: -785944764
+      forest gr sides_43: -1329881019
+      forest gr sides_44: 2079541178
+      forest gr sides_45: 1747090496
+      forest gr sides_46: 1758986054
+      forest gr sides_47: -186102456
+      forest gr sides_48: 1404676653
+      forest gr sides_49: 1819856935
+      forest gr sides_5: -3353971673229240292
+      forest gr sides_50: 739161282
+      forest gr sides_51: -1249655347
+      forest gr sides_52: -439012533
+      forest gr sides_53: -1138198468
+      forest gr sides_54: -529495871
+      forest gr sides_55: -1739580174
+      forest gr sides_56: 1563518616
+      forest gr sides_57: -861363602
+      forest gr sides_58: -198612818
+      forest gr sides_59: -1765630121
+      forest gr sides_6: -7170742918285860501
+      forest gr sides_60: 1300864428
+      forest gr sides_61: 4338650
+      forest gr sides_62: -1312327353
+      forest gr sides_63: -1046329051
+      forest gr sides_64: -810296522
+      forest gr sides_65: 1650439125
+      forest gr sides_66: 803072061
+      forest gr sides_67: 985304974
+      forest gr sides_68: -1707429303
+      forest gr sides_69: -1169558495
+      forest gr sides_7: -7570885460637256414
+      forest gr sides_70: -541563403
+      forest gr sides_71: -1377466646
+      forest gr sides_72: 1872665998
+      forest gr sides_73: 324443514
+      forest gr sides_74: 1128840625
+      forest gr sides_75: 1188023997
+      forest gr sides_76: 2144092217
+      forest gr sides_77: -212448935
+      forest gr sides_78: 678743804
+      forest gr sides_79: -390648212
+      forest gr sides_8: 4500427456996776979
+      forest gr sides_80: 1570980363
+      forest gr sides_81: -653727100
+      forest gr sides_82: 2121662775
+      forest gr sides_83: 129146376
+      forest gr sides_84: 994598486
+      forest gr sides_85: 277635499
+      forest gr sides_86: 2106373800
+      forest gr sides_87: -1551949376
+      forest gr sides_88: 824023644
+      forest gr sides_89: -97259286
+      forest gr sides_9: 6156770330583124409
+      forest gr sides_90: 1223038516
+      forest gr sides_91: -1348280825
+      forest gr sides_92: 412621609
+      forest gr sides_93: -196052064
+      forest gr sides_94: 128335511
+      forest gr sides_95: 929424334
+      forest gr sides_96: 758233047
+      forest gr sides_97: 1925616508
+      forest gr sides_98: -1962504385
+      forest gr sides_99: 826310465
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
