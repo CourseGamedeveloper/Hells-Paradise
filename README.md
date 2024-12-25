@@ -27,8 +27,9 @@ public class IntroSceneManager : MonoBehaviour
         SceneManager.LoadScene("Menu");
     }
 }
- 
+```
 * basic Menu
+
  ```csharp
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -47,6 +48,7 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Menu");
     }
 }
+ ```
 * button About to read more information in the game .
 
 ---
