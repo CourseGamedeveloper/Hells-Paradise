@@ -1,17 +1,21 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
-//this class for the video
+
+// This class handles the video playback for the intro scene.
 public class IntroSceneManager : MonoBehaviour
 {
-    [SerializeField] private VideoPlayer videoPlayer;
+    [SerializeField]
+    private VideoPlayer videoPlayer;
+
     private void Start()
     {
-        videoPlayer.loopPointReached += VideoPlayer_loopPointRached;
+        videoPlayer.loopPointReached += VideoPlayer_LoopPointReached;
     }
-    private void VideoPlayer_loopPointRached(VideoPlayer videoPlayer)//after the video finish go to the menu
+
+    // Triggered when the video finishes playing.
+    private void VideoPlayer_LoopPointReached(VideoPlayer videoPlayer)
     {
         SceneManager.LoadScene("Menu");
     }
 }
- 
