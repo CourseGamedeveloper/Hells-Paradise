@@ -6,6 +6,8 @@ public class PlayerAttack : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
+    [SerializeField]
+    [Tooltip(" damage when player attack the enemy")]
     private int attackDamage = 30;
 
     // Start is called before the first execution of Update after the MonoBehaviour is created
