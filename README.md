@@ -49,6 +49,9 @@ public class MainMenu : MonoBehaviour
     }
 }
  ```
+### Image for basic menu
+![menu](https://github.com/user-attachments/assets/0dc624f5-98d0-4444-aa05-cced34b24f38)
+
 * button About to read more information in the game .
 
 ---
