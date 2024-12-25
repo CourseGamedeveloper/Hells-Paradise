@@ -6,6 +6,7 @@ using UnityEngine.Video;
 public class IntroSceneManager : MonoBehaviour
 {
     [SerializeField]
+    [Tooltip("The VideoPlayer component responsible for playing the intro video.")]
     private VideoPlayer videoPlayer;
 
     private void Start()
