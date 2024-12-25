@@ -3,9 +3,6 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-   
-    [SerializeField]
-    [Tooltip("the health for the Enemy")]
     public int maxHealt = 100;
     int currentHealth ;//varible for to know the current health for the enemy
     private Animator animator;
