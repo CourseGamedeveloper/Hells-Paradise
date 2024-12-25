@@ -3,8 +3,11 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public int maxHealt = 100;
-    int currentHealth ;//varible for to know the current health for the enemy
+    [SerializeField]
+    [Tooltip("The health for the Enemy")]
+    public int maxHealth = 100;
+
+    private int currentHealth; // Variable to track the current health of the enemy
     private Animator animator;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -14,7 +17,7 @@ public class Enemy : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    public void TakeDamage(int damage) // Renamed 'Take_Damage' to 'TakeDamage' for C# naming conventions
+    public void Take_Damage(int damage)
     {
         currentHealth -= damage;
         if (currentHealth <= 0)
