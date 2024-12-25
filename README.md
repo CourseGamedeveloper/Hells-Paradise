@@ -5,7 +5,28 @@ Embark on a perilous journey in Hell’s Paradise: Shadows of the Cursed Isle, a
 
 ### opening process:
 * Video when start the game
-* ```csharp
+ ```csharp
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.Video;
+
+// This class handles the video playback for the intro scene.
+public class IntroSceneManager : MonoBehaviour
+{
+    [SerializeField]
+    private VideoPlayer videoPlayer;
+
+    private void Start()
+    {
+        videoPlayer.loopPointReached += VideoPlayer_LoopPointReached;
+    }
+
+    // Triggered when the video finishes playing.
+    private void VideoPlayer_LoopPointReached(VideoPlayer videoPlayer)
+    {
+        SceneManager.LoadScene("Menu");
+    }
+}
   
 * basic Menu
 * button About to read more information in the game .
