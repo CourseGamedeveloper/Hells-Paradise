@@ -4,7 +4,9 @@ Embark on a perilous journey in Hell’s Paradise: Shadows of the Cursed Isle, a
 ---
 
 ### opening process:
-* Video when start the game 
+* Video when start the game
+* ```csharp
+  
 * basic Menu
 * button About to read more information in the game .
 
