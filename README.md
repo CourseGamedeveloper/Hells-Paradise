@@ -35,21 +35,25 @@ public class IntroSceneManager : MonoBehaviour
  ```csharp
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class MainMenu : MonoBehaviour
 {
-    public void PlayGame()//this for button to play the game
+    public void PlayGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Game");
     }
-    public void About()//this for button for explain the game
+
+    public void ABOUT()
     {
         SceneManager.LoadScene("About");
     }
-    public void BACK()//this for button in About to return to the Menu
+
+    public void BACK_TOMENU()
     {
         SceneManager.LoadScene("Menu");
     }
 }
+
  ```
 ### Image for basic menu
 ![menu](https://github.com/user-attachments/assets/0dc624f5-98d0-4444-aa05-cced34b24f38)
