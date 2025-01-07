@@ -59,5 +59,5 @@ public class MainMenu : MonoBehaviour
 ---
 * For more information You can read my wiki https://github.com/CourseGamedeveloper/Hells-Paradise/wiki/Hell's-Paradise-Game
 ## To play the first level:
-link to the game: https://ibrahem-hurani.itch.io/hells-paradise
+https://ibrahem-hurani.itch.io/hells-paradise-3d
 ## Create By: Ibrahem Hurani
