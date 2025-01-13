@@ -62,6 +62,7 @@ public class MainMenu : MonoBehaviour
 
 ---
 * For more information You can read my wiki https://github.com/CourseGamedeveloper/Hells-Paradise/wiki/Hell's-Paradise-Game
+* For more details about the story: https://jigokuraku.fandom.com/wiki/Jigokuraku_Wiki
 ## To play the first level:
 https://ibrahem-hurani.itch.io/hells-paradise-3d
 ## Create By: Ibrahem Hurani
