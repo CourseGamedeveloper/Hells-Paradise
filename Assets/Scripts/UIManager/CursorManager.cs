@@ -1,27 +1,44 @@
-﻿using UnityEngine;
+using UnityEngine;
 
+/// <summary>
+/// Manages the cursor visibility and locking state during gameplay.
+/// </summary>
 public class CursorManager : MonoBehaviour
 {
     private void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false; // מסתיר את הסמן
+        LockCursor();
     }
 
-    void Update()
+    private void Update()
     {
         if (Cursor.lockState != CursorLockMode.Locked)
         {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false; // מסתיר את הסמן
+            LockCursor();
         }
-        
 
-        // שחרור הסמן בעת לחיצה על ESC
+        // Unlock the cursor when pressing ESC
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Cursor.lockState = CursorLockMode.None; // שחרור הסמן
-            Cursor.visible = true; // מציג את הסמן
+            UnlockCursor();
         }
+    }
+
+    /// <summary>
+    /// Locks the cursor and makes it invisible.
+    /// </summary>
+    private void LockCursor()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+
+    /// <summary>
+    /// Unlocks the cursor and makes it visible.
+    /// </summary>
+    private void UnlockCursor()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }
