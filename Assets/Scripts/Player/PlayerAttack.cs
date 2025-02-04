@@ -1,4 +1,5 @@
 using UnityEngine;
+
 /// <summary>
 /// Manages player attack actions, including animations and sound effects.
 /// </summary>
@@ -32,7 +33,7 @@ public class PlayerAttack : MonoBehaviour
         }
 
         if (Input.GetMouseButtonDown(1))
-        { 
+        {
             HandleAttack(2);
         }
 
@@ -44,10 +45,10 @@ public class PlayerAttack : MonoBehaviour
     /// Handles different attack animations based on the attack index.
     /// </summary>
     /// <param name="attackIndex">The attack type index.</param>
-private void HandleAttack(int attackIndex)
-{
-    switch (attackIndex)
-        { 
+    private void HandleAttack(int attackIndex)
+    {
+        switch (attackIndex)
+        {
             case 0:
                 animator.SetTrigger("armada");
                 animator.SetTrigger("mmaKick");
@@ -68,7 +69,7 @@ private void HandleAttack(int attackIndex)
     /// Plays the sword attack sound effect.
     /// </summary>
     private void HandleSwordSoundEffect()
-    {  
+    {
         if (AudioSwordEffect != null && SwordSoundEffect != null)
         {
             AudioSwordEffect.PlayOneShot(SwordSoundEffect);
