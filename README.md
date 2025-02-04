@@ -4,6 +4,8 @@ Embark on a perilous journey in Hell’s Paradise: Shadows of the Cursed Isle, a
 --- 
 ### UML Diagram:
 
+![uml](https://github.com/user-attachments/assets/05708953-590d-429f-9fbe-da3ce1162702)
+
 ---
 ### Details about The Story:
 * For more information You can read my wiki https://github.com/CourseGamedeveloper/Hells-Paradise/wiki/Hell's-Paradise-Game
