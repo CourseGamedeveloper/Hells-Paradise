@@ -65,8 +65,4 @@ public class MainMenu : MonoBehaviour
 * For more details about the story: https://jigokuraku.fandom.com/wiki/Jigokuraku_Wiki
 ## To play the first level:
 https://ibrahem-hurani.itch.io/hells-paradise-3d
-## Thank for:
-* channel Youtube:https://www.youtube.com/@Brackeys
-*  The Team of the animation move:Hell's paradise for the good story
-* website help model 3d:https://www.meshy.ai/workspace
 ## Create By: Ibrahem Hurani
