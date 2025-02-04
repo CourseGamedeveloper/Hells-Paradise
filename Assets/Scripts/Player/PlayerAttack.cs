@@ -12,7 +12,7 @@ public class PlayerAttack : MonoBehaviour
     public AudioSource AudioSwordEffect;
 
     [Tooltip("Sound effect for the sword.")]
-    public AudioClip SowrdSoundEffect;
+    public AudioClip SwordSoundEffect;
 
     private void Awake()
     {
@@ -45,7 +45,7 @@ public class PlayerAttack : MonoBehaviour
     /// <param name="attackIndex">The attack type index.</param>
     private void HandleAttack(int attackIndex)
     {
-        switch (attackIndex) 
+        switch (attackIndex)
         { 
             case 0:
                 animator.SetTrigger("armada");
@@ -68,6 +68,9 @@ public class PlayerAttack : MonoBehaviour
     /// </summary>
     private void HandleSwordSoundEffect()
     {  
-        AudioSwordEffect.PlayOneShot(SowrdSoundEffect); 
+        if (AudioSwordEffect != null && SwordSoundEffect != null)
+        {
+            AudioSwordEffect.PlayOneShot(SwordSoundEffect);
+        }
     }
 }
