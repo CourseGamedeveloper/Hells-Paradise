@@ -44,9 +44,9 @@ public class PlayerAttack : MonoBehaviour
     /// Handles different attack animations based on the attack index.
     /// </summary>
     /// <param name="attackIndex">The attack type index.</param>
-    private void HandleAttack(int attackIndex)
-    {
-        switch (attackIndex)
+private void HandleAttack(int attackIndex)
+{
+    switch (attackIndex)
         { 
             case 0:
                 animator.SetTrigger("armada");
