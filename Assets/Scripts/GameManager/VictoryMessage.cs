@@ -2,6 +2,9 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 
+/// <summary>
+/// Handles the victory message display, including text animation and sound effects.
+/// </summary>
 public class VictoryMessage : MonoBehaviour
 {
     public TextMeshProUGUI victoryText;
@@ -10,16 +13,17 @@ public class VictoryMessage : MonoBehaviour
 
     private void Start()
     {
-      
         victoryText.alpha = 0; // Start invisible
         audioSource = GetComponent<AudioSource>();
-
         StartCoroutine(ShowVictoryMessage());
     }
 
+    /// <summary>
+    /// Displays the victory message with fade-in text and scaling effect.
+    /// </summary>
     private IEnumerator ShowVictoryMessage()
     {
-        // Play sound effect
+        // Play victory sound effect
         if (victorySound != null)
         {
             audioSource.PlayOneShot(victorySound);
@@ -32,12 +36,12 @@ public class VictoryMessage : MonoBehaviour
             yield return null;
         }
 
-        // Scale "VICTORY!" part for emphasis
+        // Scale text for emphasis
         Vector3 originalScale = victoryText.transform.localScale;
         Vector3 targetScale = originalScale * 0.8f;
         float duration = 0.5f;
-
         float elapsedTime = 0;
+
         while (elapsedTime < duration)
         {
             victoryText.transform.localScale = Vector3.Lerp(originalScale, targetScale, elapsedTime / duration);
@@ -47,7 +51,7 @@ public class VictoryMessage : MonoBehaviour
 
         yield return new WaitForSeconds(1);
 
-        // Restore scale
+        // Restore original scale
         victoryText.transform.localScale = originalScale;
     }
 }
