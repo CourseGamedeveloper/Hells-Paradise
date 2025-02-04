@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
 
 
 
-    private void Update()
+    private void FixedUpdate()
     {
         HandleMovement();
         HandleJump();
@@ -50,7 +50,6 @@ public class PlayerController : MonoBehaviour
         // קלט התנועה
         float z = Input.GetAxis("Vertical");
 
-        // שינוי המהירות אם לוחצים על Shift
         bool isRunning = Input.GetKey(KeyCode.LeftShift);
         float currentSpeed = isRunning ? speedRun : speed;
 
@@ -72,11 +71,10 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && characterController.isGrounded)
         {
-            velocity.y = jumpForce;
+            velocity.y = jumpForce*animator.velocity.y;
             animator.SetTrigger("jump");
         }
 
-        // יישום כוח המשיכה
         if (!characterController.isGrounded)
         {
             velocity.y += Physics.gravity.y * Time.deltaTime;

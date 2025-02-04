@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
+  - Katana
+  - Enemy
   layers:
   - Default
   - TransparentFX
