@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/// <summary>
+/// Handles collectible items such as health, mana, elixirs, and keys.
+/// </summary>
 public class CollectItem : MonoBehaviour
 {
     [Header("Collectible Settings")]
@@ -10,20 +13,21 @@ public class CollectItem : MonoBehaviour
     [SerializeField] private CollectibleType itemType;
 
     [Tooltip("Amount to add for health or mana.")]
-    [SerializeField] private float valueAmount ;
+    [SerializeField] private float valueAmount;
 
     private GameManager gameManager;
-   
     private PlayerController player;
     private UIManager uiManager;
     private Prison prison;
+
     private void Awake()
     {
-        prison=FindAnyObjectByType<Prison>();
-        uiManager=FindAnyObjectByType<UIManager>();
-        player=FindAnyObjectByType<PlayerController>();
-        gameManager=FindAnyObjectByType<GameManager>();
+        prison = FindAnyObjectByType<Prison>();
+        uiManager = FindAnyObjectByType<UIManager>();
+        player = FindAnyObjectByType<PlayerController>();
+        gameManager = FindAnyObjectByType<GameManager>();
     }
+
     private void Update()
     {
         // Rotate the collectible continuously
@@ -35,8 +39,6 @@ public class CollectItem : MonoBehaviour
         // Check if the player collides with the collectible
         if (other.CompareTag("Player"))
         {
-            
-
             if (player != null)
             {
                 ApplyEffect(player);
@@ -47,6 +49,10 @@ public class CollectItem : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Applies the effect of the collected item to the player.
+    /// </summary>
+    /// <param name="player">The player who collected the item.</param>
     private void ApplyEffect(PlayerController player)
     {
         switch (itemType)
@@ -54,7 +60,6 @@ public class CollectItem : MonoBehaviour
             case CollectibleType.AddHealth:
                 player.Heal(valueAmount);
                 break;
-
             case CollectibleType.AddMana:
                 player.AddMana(valueAmount);
                 break;
@@ -65,12 +70,12 @@ public class CollectItem : MonoBehaviour
                 uiManager.SetKeyText();
                 prison.setIsHaveKey();
                 break;
-
-            
         }
     }
 
-   
+    /// <summary>
+    /// Defines the different types of collectible items.
+    /// </summary>
     public enum CollectibleType
     {
         AddHealth,
