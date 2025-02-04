@@ -1,10 +1,13 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
+/// <summary>
+/// Manages the UI elements, including health/mana bars, key notifications, and enemy tracking.
+/// </summary>
 public class UIManager : MonoBehaviour
 {
     [Header("Health Settings")]
@@ -14,7 +17,7 @@ public class UIManager : MonoBehaviour
     private PlayerController playerController;
     public float Player_currentHealth; // Player's current health
     public float Player_currentMana;
-    
+
     [SerializeField]
     [Tooltip("Canvas Game Objects for the Keys")]
     public GameObject Keys;
@@ -26,8 +29,8 @@ public class UIManager : MonoBehaviour
 
     [Header("Enemy Tracking")]
     public TextMeshProUGUI EnemyCounterText;
-    private Dictionary<int, int> villageEnemies = new Dictionary<int, int>(); // Number of enemy for every village
-    private int currentVillage = 1; // the current village 
+    private Dictionary<int, int> villageEnemies = new Dictionary<int, int>(); // Number of enemies in each village
+    private int currentVillage = 1; // The current village 
 
     private void Awake()
     {
@@ -35,32 +38,35 @@ public class UIManager : MonoBehaviour
         TextMana.SetActive(false);
         isUsedMana = false;
         playerController = FindAnyObjectByType<PlayerController>();
-        weapon = FindAnyObjectByType<PlayerWeapon>();   
-        // Initialize current health and set slider values
+        weapon = FindAnyObjectByType<PlayerWeapon>();
+
+        // Initialize health and mana bars
         Player_currentHealth = playerController.HealthMax;
         InitializeHealthBar();
-        InitalizeManaBar();
-        
+        InitializeManaBar();
+
         if (Keys != null)
         {
             Keys.SetActive(true);
-          
         }
-        villageEnemies[1] = 7; //number of the enemy in village 1
-        villageEnemies[2] = 6; //number of the enemy in village 2
-        villageEnemies[3] = 8;//number of the enemy in village 3
-        villageEnemies[4] = 3;//number of the enemy in the village 4 -> castle
 
-       
+        // Define enemy count per village
+        villageEnemies[1] = 7;
+        villageEnemies[2] = 6;
+        villageEnemies[3] = 8;
+        villageEnemies[4] = 3;
     }
+
     private void Update()
     {
         UpdateManaBar();
         UpdateIsUsedMana();
         CheckMana();
-
     }
-    
+
+    /// <summary>
+    /// Initializes the player's health bar in the UI.
+    /// </summary>
     private void InitializeHealthBar()
     {
         if (HealthSlider != null)
@@ -73,18 +79,22 @@ public class UIManager : MonoBehaviour
             Debug.LogError("HealthSlider is not assigned in the Inspector!");
         }
     }
-    private void InitalizeManaBar()
+
+    /// <summary>
+    /// Initializes the player's mana bar in the UI.
+    /// </summary>
+    private void InitializeManaBar()
     {
-        if (ManaSlider != null) 
+        if (ManaSlider != null)
         {
             ManaSlider.maxValue = playerController.ManaMax;
             ManaSlider.value = Player_currentMana;
         }
-        
-                
-
     }
 
+    /// <summary>
+    /// Updates the health bar UI based on the player's current health.
+    /// </summary>
     public void UpdateHealthBar(float currentHealth, float maxHealth)
     {
         if (HealthSlider != null)
@@ -93,48 +103,49 @@ public class UIManager : MonoBehaviour
             HealthSlider.value = currentHealth;
         }
     }
+
+    /// <summary>
+    /// Updates the mana bar UI.
+    /// </summary>
     public void UpdateManaBar()
     {
         if (ManaSlider != null)
         {
-            if (Player_currentMana < playerController.ManaMax && !isUsedMana )
+            if (Player_currentMana < playerController.ManaMax && !isUsedMana)
             {
                 Player_currentMana += (10f * Time.deltaTime);
-                //Debug.Log(Player_currentMana);
-                
                 ManaSlider.value = Player_currentMana;
-                
             }
-            else if(isUsedMana&& Player_currentMana>=0) 
+            else if (isUsedMana && Player_currentMana >= 0)
             {
-                Player_currentMana -= 10f*Time.deltaTime;
-                //Debug.Log(Player_currentMana);
+                Player_currentMana -= 10f * Time.deltaTime;
                 ManaSlider.value = Player_currentMana;
             }
         }
     }
 
-
-
-
+    /// <summary>
+    /// Updates the player's mana status and activates abilities if necessary.
+    /// </summary>
     private void UpdateIsUsedMana()
     {
-        if (Input.GetKeyUp(KeyCode.A) && Player_currentMana >playerController.ManaMax)
+        if (Input.GetKeyUp(KeyCode.A) && Player_currentMana > playerController.ManaMax)
         {
             isUsedMana = true;
             weapon.SetFireEffect(true);
-           TextMana.SetActive(true);
-
+            TextMana.SetActive(true);
         }
-        else if(isUsedMana&& Player_currentMana <= 0f)
+        else if (isUsedMana && Player_currentMana <= 0f)
         {
             isUsedMana = false;
-            weapon.SetFireEffect(false);  
+            weapon.SetFireEffect(false);
             TextMana.SetActive(false);
         }
-
-
     }
+
+    /// <summary>
+    /// Checks if the player has enough mana to use abilities.
+    /// </summary>
     private void CheckMana()
     {
         if (Player_currentMana >= 100)
@@ -146,31 +157,48 @@ public class UIManager : MonoBehaviour
             TextUseMana.SetActive(false);
         }
     }
+
+    /// <summary>
+    /// Displays the key text UI for a limited time.
+    /// </summary>
     public void SetKeyText()
     {
         TextKey.SetActive(true);
         StartCoroutine(HideTextAfterDelay(10));
     }
+
+    /// <summary>
+    /// Hides the key text UI after a delay.
+    /// </summary>
     private IEnumerator HideTextAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        TextKey.SetActive(false); // כיבוי הטקסט
+        TextKey.SetActive(false);
     }
+
+    /// <summary>
+    /// Hides the enemy counter UI after a delay.
+    /// </summary>
     private IEnumerator HideEnemyCounterText()
     {
-        yield return new WaitForSeconds(5); // זמן המתנה
-        EnemyCounterText.gameObject.SetActive(false); // כיבוי הטקסט
+        yield return new WaitForSeconds(5);
+        EnemyCounterText.gameObject.SetActive(false);
     }
-    // 📌 עדכון מספר האויבים במסך
+
+    /// <summary>
+    /// Updates the enemy counter UI.
+    /// </summary>
     public void UpdateEnemyCounter()
     {
-        if (EnemyCounterText != null && villageEnemies[currentVillage]>0)
+        if (EnemyCounterText != null && villageEnemies[currentVillage] > 0)
         {
             EnemyCounterText.text = $"Village {currentVillage} - Enemies Left: {villageEnemies[currentVillage]}";
         }
     }
 
-    // 📌 קריאה לפונקציה כאשר אויב נהרג
+    /// <summary>
+    /// Called when an enemy is defeated to update the UI and enemy count.
+    /// </summary>
     public void EnemyDefeated(int villageId)
     {
         if (!villageEnemies.ContainsKey(villageId)) return;
@@ -180,7 +208,6 @@ public class UIManager : MonoBehaviour
         {
             EnemyCounterText.text = $"All enemies in Village {villageId} defeated!";
             StartCoroutine(HideEnemyCounterText());
-
         }
         else
         {
@@ -188,7 +215,9 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    // 📌 פונקציה לעדכון הכפר הנוכחי של השחקן
+    /// <summary>
+    /// Sets the current village ID when the player enters a village.
+    /// </summary>
     public void SetCurrentVillage(int villageId)
     {
         if (!villageEnemies.ContainsKey(villageId)) return;
@@ -196,12 +225,16 @@ public class UIManager : MonoBehaviour
         currentVillage = villageId;
         ShowEnemyCounterText();
     }
+
+    /// <summary>
+    /// Displays the enemy counter UI if there are remaining enemies in the village.
+    /// </summary>
     public void ShowEnemyCounterText()
     {
         if (villageEnemies[currentVillage] > 0)
         {
             EnemyCounterText.gameObject.SetActive(true);
-            UpdateEnemyCounter(); // עדכון הטקסט עם מספר האויבים הנוכחי
+            UpdateEnemyCounter();
         }
     }
 }
