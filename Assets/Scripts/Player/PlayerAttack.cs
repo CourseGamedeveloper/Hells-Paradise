@@ -1,5 +1,4 @@
 using UnityEngine;
-
 /// <summary>
 /// Manages player attack actions, including animations and sound effects.
 /// </summary>
@@ -26,10 +25,12 @@ public class PlayerAttack : MonoBehaviour
             isAttack = true;
             HandleAttack(0);
         }
+
         if (Input.GetMouseButtonDown(0))
         {
             HandleAttack(1);
         }
+
         if (Input.GetMouseButtonDown(1))
         { 
             HandleAttack(2);
