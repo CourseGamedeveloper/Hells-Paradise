@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/// <summary>
+/// Manages audio playback based on the player's distance.
+/// </summary>
 public class AudioManager : MonoBehaviour
 {
     [SerializeField]
@@ -11,25 +14,25 @@ public class AudioManager : MonoBehaviour
     [SerializeField]
     [Tooltip("Maximum distance at which the audio is audible.")]
     private float Maxdistance;
+
     private void Awake()
     {
         _AudioSource = GetComponent<AudioSource>();
-
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         Play_Audio();
-
     }
 
+    /// <summary>
+    /// Plays or stops audio based on the player's distance.
+    /// </summary>
     private void Play_Audio()
     {
         if (_AudioSource != null && Player != null)
         {
             float distance = Vector3.Distance(transform.position, Player.position);
-            //Debug.Log(distance);
 
             if (distance <= Maxdistance)
             {
@@ -37,8 +40,6 @@ public class AudioManager : MonoBehaviour
                 {
                     _AudioSource.Play();
                 }
-
-
             }
             else
             {
@@ -46,11 +47,7 @@ public class AudioManager : MonoBehaviour
                 {
                     _AudioSource.Stop();
                 }
-
-
-
             }
-
         }
     }
 }
